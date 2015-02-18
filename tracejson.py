@@ -1,8 +1,11 @@
+#!/usr/bin/env python
+
 import sys, os
 import subprocess
 
 filename = sys.argv[1]
 output = 'output_'+filename
+# filename = './' + filename
 
 f = open(filename, 'r')
 outputFile = open(output, 'w')
