@@ -4,7 +4,7 @@ import sys, os
 import subprocess
 
 filename = sys.argv[1]
-output = 'output_'+filename
+output = filename[:-4] + "_output.txt"
 # filename = './' + filename
 
 f = open(filename, 'r')
