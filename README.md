@@ -13,4 +13,4 @@ Next clone the repo:
 
 Unzip the archive called traceJSON.
 
-Run the JSONTrace, choose your file, and get ready to do something with JSON!
+Run the JSONTrace application, choose your file, and get ready to do something with JSON!
