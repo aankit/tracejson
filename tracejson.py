@@ -9,7 +9,7 @@ output = filename[:-4] + "_output.txt"
 
 f = open(filename, 'r')
 outputFile = open(output, 'w')
-outputFile.write('traceroute:[')
+outputFile.write('traceroute:{')
 outputFile.close()
 
 lastID = 0
@@ -32,5 +32,5 @@ with open(output, 'rb+') as outputFile:
 	outputFile.truncate()
 outputFile.close()
 outputFile = open(output, 'a')
-outputFile.write(']')
+outputFile.write('}')
 outputFile.close()
