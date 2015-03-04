@@ -8,7 +8,7 @@ output = filename[:-4] + "_out.txt"
 
 f = open(filename, 'r')
 outputFile = open(output, 'w')
-outputFile.write('{\'traceroute\':[')
+outputFile.write('{\"traceroute\":[')
 outputFile.close()
 
 lastID = 0
