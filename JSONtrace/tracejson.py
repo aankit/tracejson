@@ -31,5 +31,5 @@ with open(output, 'rb+') as outputFile:
 	outputFile.truncate()
 outputFile.close()
 outputFile = open(output, 'a')
-outputFile.write('}')
+outputFile.write(']}')
 outputFile.close()
